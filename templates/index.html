@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block canonical_path %}{% endblock %}
+{% block content %}
+<div class="hero">
+  <h1>{{ config.site_name }}</h1>
+  <p>{{ config.tagline }}</p>
+</div>
+<ul class="post-list">
+  {% for a in articles %}
+  <li>
+    <a href="{{ config.site_url }}/{{ a.slug }}/">{{ a.title }}</a>
+    <p class="post-date">{{ a.date }}</p>
+    <p class="post-excerpt">{{ a.description }}</p>
+  </li>
+  {% endfor %}
+</ul>
+{% endblock %}

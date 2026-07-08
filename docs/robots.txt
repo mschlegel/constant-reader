@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mschlegel.github.io/constant-reader/sitemap.xml

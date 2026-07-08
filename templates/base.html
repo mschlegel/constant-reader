@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% block title %}{{ config.site_name }}{% endblock %}</title>
+<meta name="description" content="{% block description %}{{ config.tagline }}{% endblock %}">
+<link rel="canonical" href="{{ config.site_url }}/{% block canonical_path %}{% endblock %}">
+<link rel="stylesheet" href="{{ config.site_url }}/static/style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="site-title" href="{{ config.site_url }}/">{{ config.site_name }}</a>
+  <nav>
+    <a href="{{ config.site_url }}/">Articles</a>
+    {% for p in nav_pages %}<a href="{{ config.site_url }}/{{ p.slug }}/">{{ p.title }}</a>{% endfor %}
+  </nav>
+</header>
+<main>
+{% block content %}{% endblock %}
+</main>
+<footer class="site-footer">
+  <p>{{ config.site_name }} is a participant in the Amazon Services LLC Associates Program. As an Amazon Associate, we earn from qualifying purchases. See our <a href="{{ config.site_url }}/affiliate-disclosure/">affiliate disclosure</a>.</p>
+  <p>&copy; {{ config.site_name }}</p>
+</footer>
+</body>
+</html>
