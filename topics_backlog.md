@@ -44,7 +44,7 @@ come up (sequels, new adaptations, anniversaries) — don't let any bucket run d
 - [ ] Under the Dome: Plot Summary and Guide
 
 ## Book-vs-adaptation comparisons
-- [ ] The Shawshank Redemption: Movie vs. the Novella, Every Difference Explained
+- [x] The Shawshank Redemption: Movie vs. the Novella, Every Difference Explained — published 2026-07-09, slug: shawshank-redemption-movie-vs-novella
 - [ ] IT (2017/2019): Movie vs. Book, What Changed
 - [ ] The Shining: Why Stephen King Hated Kubrick's Adaptation
 - [ ] Doctor Sleep: Movie vs. Book Ending Compared
