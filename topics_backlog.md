@@ -7,7 +7,7 @@ come up (sequels, new adaptations, anniversaries) — don't let any bucket run d
 
 ## Reading order guides
 - [x] The Complete Stephen King Reading Order (Chronological, By Series, and Best Starting Points) — published 2026-07-07, slug: stephen-king-reading-order
-- [ ] The Dark Tower Series Reading Order (including tie-in novels)
+- [x] The Dark Tower Series Reading Order (including tie-in novels) — published 2026-07-09, slug: dark-tower-reading-order
 - [ ] Castle Rock Reading Order: Every Book Set in King's Fictional Maine Town
 - [ ] Where to Start With Stephen King: Best Books for First-Time Readers
 - [ ] The Shining / Doctor Sleep Reading Order and Timeline
