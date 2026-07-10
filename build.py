@@ -86,6 +86,9 @@ def main():
 
     (OUT_DIR / ".nojekyll").write_text("", encoding="utf-8")
 
+    if config.get("custom_domain"):
+        (OUT_DIR / "CNAME").write_text(config["custom_domain"], encoding="utf-8")
+
     print(f"Built {len(articles)} articles, {len(pages)} pages -> {OUT_DIR}")
 
 
