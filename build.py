@@ -12,6 +12,7 @@ ROOT = Path(__file__).parent
 CONTENT_DIR = ROOT / "content"
 PAGES_DIR = ROOT / "pages"
 STATIC_DIR = ROOT / "static"
+PUBLIC_DIR = ROOT / "public"
 TEMPLATES_DIR = ROOT / "templates"
 OUT_DIR = ROOT / "docs"
 
@@ -36,6 +37,10 @@ def main():
     OUT_DIR.mkdir()
     if STATIC_DIR.exists():
         shutil.copytree(STATIC_DIR, OUT_DIR / "static")
+    if PUBLIC_DIR.exists():
+        for f in PUBLIC_DIR.iterdir():
+            if f.is_file():
+                shutil.copy(f, OUT_DIR / f.name)
 
     articles = sorted(
         (load_doc(p) for p in CONTENT_DIR.glob("*.md")),
