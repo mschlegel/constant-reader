@@ -17,7 +17,7 @@ come up (sequels, new adaptations, anniversaries) — don't let any bucket run d
 
 ## Best/worst rankings
 - [x] The Best Stephen King Books, Ranked — published 2026-07-07, slug: best-stephen-king-books-ranked
-- [ ] The Best Stephen King Short Story Collections, Ranked
+- [x] The Best Stephen King Short Story Collections, Ranked — published 2026-07-13, slug: best-stephen-king-short-story-collections-ranked
 - [ ] The Scariest Stephen King Books, Ranked
 - [ ] The Best Stephen King Villains, Ranked
 - [ ] Stephen King's Best Books From the 1980s
