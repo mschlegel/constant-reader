@@ -29,7 +29,7 @@ come up (sequels, new adaptations, anniversaries) — don't let any bucket run d
 
 ## Per-book deep dives
 - [x] IT: Full Plot Summary, Themes, and What the Ending Means — published 2026-07-07, slug: it-plot-summary-ending-explained
-- [ ] The Shining: The Book vs. the Real History of the Overlook (Stanley Hotel)
+- [x] The Shining: The Book vs. the Real History of the Overlook (Stanley Hotel) — published 2026-07-16, slug: shining-overlook-hotel-real-history
 - [ ] Pet Sematary: A Complete Guide to King's Most Personal Horror Novel
 - [ ] Misery: What Makes Annie Wilkes Stephen King's Scariest Villain
 - [ ] The Stand: Guide to the Uncut Edition vs. the Original
