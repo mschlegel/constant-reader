@@ -45,7 +45,7 @@ come up (sequels, new adaptations, anniversaries) — don't let any bucket run d
 
 ## Book-vs-adaptation comparisons
 - [x] The Shawshank Redemption: Movie vs. the Novella, Every Difference Explained — published 2026-07-09, slug: shawshank-redemption-movie-vs-novella
-- [ ] IT (2017/2019): Movie vs. Book, What Changed
+- [x] IT (2017/2019): Movie vs. Book, What Changed — published 2026-07-19, slug: it-movie-vs-book-what-changed
 - [ ] The Shining: Why Stephen King Hated Kubrick's Adaptation
 - [ ] Doctor Sleep: Movie vs. Book Ending Compared
 - [ ] Pet Sematary (2019) vs. the Original Novel: What Changed
