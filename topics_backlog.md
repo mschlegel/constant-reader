@@ -15,7 +15,7 @@ approval odds and the post-approval 180-day/3-sale requirement).
 ## Reading order guides
 - [x] The Complete Stephen King Reading Order (Chronological, By Series, and Best Starting Points) — published 2026-07-07, slug: stephen-king-reading-order
 - [x] The Dark Tower Series Reading Order (including tie-in novels) — published 2026-07-09, slug: dark-tower-reading-order
-- [ ] Where to Start With Stephen King: Best Books for First-Time Readers
+- [x] Where to Start With Stephen King: Best Books for First-Time Readers — published 2026-07-20, slug: where-to-start-with-stephen-king
 - [ ] The Shining / Doctor Sleep Reading Order and Timeline
 - [ ] Stephen King's Universe: How His Books Connect (Easter Eggs and Shared Characters)
 - [ ] Bill Hodges Trilogy Reading Order (Mr. Mercedes, Finders Keepers, End of Watch)
