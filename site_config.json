@@ -3,5 +3,6 @@
   "site_url": "https://constantreaderguide.com",
   "custom_domain": "constantreaderguide.com",
   "tagline": "Reading orders, rankings, and deep dives for Stephen King fans",
-  "affiliate_tag": "YOURTAG-20"
+  "affiliate_tag": "YOURTAG-20",
+  "ga_measurement_id": ""
 }

@@ -7,6 +7,15 @@
 <meta name="description" content="{% block description %}{{ config.tagline }}{% endblock %}">
 <link rel="canonical" href="{{ config.site_url }}/{% block canonical_path %}{% endblock %}">
 <link rel="stylesheet" href="{{ config.site_url }}/static/style.css">
+{% if config.ga_measurement_id %}
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ config.ga_measurement_id }}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', '{{ config.ga_measurement_id }}');
+</script>
+{% endif %}
 </head>
 <body>
 <header class="site-header">
