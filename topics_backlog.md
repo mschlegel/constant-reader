@@ -25,7 +25,7 @@ approval odds and the post-approval 180-day/3-sale requirement).
 ## Best/worst rankings
 - [x] The Best Stephen King Books, Ranked — published 2026-07-07, slug: best-stephen-king-books-ranked
 - [x] The Best Stephen King Short Story Collections, Ranked — published 2026-07-13, slug: best-stephen-king-short-story-collections-ranked
-- [ ] The Scariest Stephen King Books, Ranked
+- [x] The Scariest Stephen King Books, Ranked — published 2026-07-23, slug: scariest-stephen-king-books-ranked
 - [ ] The Best Stephen King Villains, Ranked
 - [ ] The Best Stephen King Books for Readers Who Don't Like Horror
 - [ ] The Best Stephen King Audiobooks (and Best Narrators)
