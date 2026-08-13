@@ -38,7 +38,7 @@ approval odds and the post-approval 180-day/3-sale requirement).
 - [x] IT: Full Plot Summary, Themes, and What the Ending Means — published 2026-07-07, slug: it-plot-summary-ending-explained
 - [x] The Shining: The Book vs. the Real History of the Overlook (Stanley Hotel) — published 2026-07-16, slug: shining-overlook-hotel-real-history
 - [x] Pet Sematary: A Complete Guide to King's Most Personal Horror Novel — published 2026-07-27, slug: pet-sematary-guide
-- [ ] Salem's Lot: Guide to King's Vampire Novel
+- [x] Salem's Lot: Guide to King's Vampire Novel — published 2026-08-13, slug: salems-lot-guide
 - [ ] The Stand: Guide to the Uncut Edition vs. the Original
 - [ ] Misery: What Makes Annie Wilkes Stephen King's Scariest Villain
 - [ ] Carrie: Stephen King's Debut Novel, Explained
