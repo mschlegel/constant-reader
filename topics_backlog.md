@@ -54,7 +54,7 @@ approval odds and the post-approval 180-day/3-sale requirement).
 - [x] The Shawshank Redemption: Movie vs. the Novella, Every Difference Explained — published 2026-07-09, slug: shawshank-redemption-movie-vs-novella
 - [x] IT (2017/2019): Movie vs. Book, What Changed — published 2026-07-19, slug: it-movie-vs-book-what-changed
 - [x] The Shining: Why Stephen King Hated Kubrick's Adaptation — published 2026-07-30, slug: shining-why-king-hated-kubrick
-- [ ] The Mist: Movie Ending vs. Book Ending (They're Very Different)
+- [x] The Mist: Movie Ending vs. Book Ending (They're Very Different) — published 2026-08-17, slug: the-mist-movie-vs-book-ending
 - [ ] Pet Sematary (2019) vs. the Original Novel: What Changed
 - [ ] The Stand: 1994 Miniseries vs. 2020 Series vs. the Book
 - [ ] Carrie: Comparing All Three Film Adaptations to the Book
