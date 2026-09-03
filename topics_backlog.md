@@ -18,7 +18,7 @@ approval odds and the post-approval 180-day/3-sale requirement).
 - [x] Where to Start With Stephen King: Best Books for First-Time Readers — published 2026-07-20, slug: where-to-start-with-stephen-king
 - [x] The Shining / Doctor Sleep Reading Order and Timeline — published 2026-08-03, slug: shining-doctor-sleep-reading-order-timeline
 - [x] Stephen King's Universe: How His Books Connect (Easter Eggs and Shared Characters) — published 2026-08-20, slug: stephen-king-universe-connections
-- [ ] Bill Hodges Trilogy Reading Order (Mr. Mercedes, Finders Keepers, End of Watch)
+- [x] Bill Hodges Trilogy Reading Order (Mr. Mercedes, Finders Keepers, End of Watch) — published 2026-09-03, slug: bill-hodges-trilogy-reading-order
 - [ ] The Green Mile Reading Order (Original Serial Format vs. Collected Edition)
 - [ ] Castle Rock Reading Order: Every Book Set in King's Fictional Maine Town
 
