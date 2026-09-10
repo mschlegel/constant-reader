@@ -40,7 +40,7 @@ approval odds and the post-approval 180-day/3-sale requirement).
 - [x] Pet Sematary: A Complete Guide to King's Most Personal Horror Novel — published 2026-07-27, slug: pet-sematary-guide
 - [x] Salem's Lot: Guide to King's Vampire Novel — published 2026-08-13, slug: salems-lot-guide
 - [x] The Stand: Guide to the Uncut Edition vs. the Original — published 2026-08-27, slug: the-stand-uncut-edition-vs-original
-- [ ] Misery: What Makes Annie Wilkes Stephen King's Scariest Villain
+- [x] Misery: What Makes Annie Wilkes Stephen King's Scariest Villain — published 2026-09-10, slug: misery-annie-wilkes-scariest-villain
 - [ ] Carrie: Stephen King's Debut Novel, Explained
 - [ ] 11/22/63: A Guide to King's Time-Travel Epic
 - [ ] Under the Dome: Plot Summary and Guide
