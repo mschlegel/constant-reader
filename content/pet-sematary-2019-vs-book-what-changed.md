@@ -1,0 +1,45 @@
+---
+title: "Pet Sematary (2019) vs. the Original Novel: What Changed"
+slug: pet-sematary-2019-vs-book-what-changed
+description: "How the 2019 Pet Sematary remake changes Stephen King's novel — starting with which child dies — and why the filmmakers made that switch."
+date: 2026-08-31
+---
+*Spoilers follow for the novel and both film adaptations, including all three endings.*
+
+Stephen King's *[Pet Sematary](https://www.amazon.com/s?k=Pet+Sematary+Stephen+King&tag=YOURTAG-20)* had already been adapted once, fairly faithfully, in 1989. So when Kevin Kölsch and Dennis Widmyer's remake arrived in theaters on April 5, 2019, it had to justify its own existence somehow. It did that by changing the single most load-bearing plot point in the book — and then building an entirely different back half around the change. Here's exactly what's different, and why the writers made the swap.
+
+## The setup stays close to the book
+
+The broad strokes are the same as the novel and the 1989 film: Louis Creed (Jason Clarke), a doctor, moves his family — wife Rachel (Amy Seimetz), daughter Ellie (Jeté Laurence), toddler son Gage, and Ellie's cat Church — from Boston to a house in rural Maine, next to a busy road used by speeding trucks. Their elderly neighbor Jud Crandall (John Lithgow) shows them the pet cemetery behind the property, and eventually the older, "sour" burial ground beyond it — a place where the dead come back, changed for the worse. The screenplay, credited to Jeff Buhler, keeps Church's death and resurrection essentially intact: the cat is hit on the road, Louis buries him in the Micmac ground against Jud's warning, and Church comes back duller, meaner, and wrong in ways that are supposed to be a warning nobody in this story ever heeds.
+
+Up to that point, if you've read the book, the movie will feel like a fairly close adaptation with modernized dialogue and a slightly compressed timeline. Then it isn't.
+
+## The big change: Ellie dies instead of Gage
+
+In King's novel, it's two-year-old Gage who's killed on the highway, and Ellie — away visiting her grandparents in Chicago when it happens — survives the entire book untouched by the sour ground. The 2019 film reverses that: it's Ellie who dies, struck by a speeding truck after she runs into the road chasing Church, who has wandered out into traffic exactly where the family (and the audience) don't want him to be. Gage, still a toddler, survives the film entirely undisturbed by the burial ground's effects.
+
+The filmmakers have been direct about why they made the swap. Losing a toddler on-screen is grim in a way that's difficult to sustain for an entire third act, and having an infant serve as the film's antagonist — chasing down adults, wielding a weapon — is a much harder physical performance to stage convincingly than having an actor Laurence's age (she was about ten during filming) carry those scenes. Widmyer and Kölsch have said in interviews that swapping to Ellie let them build a more effective, more mobile, more genuinely frightening threat for the film's back half, and that it also let them surprise longtime fans of the book and the 1989 film who assumed they already knew where the story was going.
+
+That single change reshapes everything after Church's death. Instead of Louis spending the second half of the story unraveling alone with a monstrous toddler, the film gives Ellie — now undead, articulate, and manipulative in a way Gage's book counterpart never gets to be — an extended, deliberate campaign against her own family, including a genuinely unsettling scene where she taunts Rachel with details only the real Ellie could know before turning on her.
+
+## Jud's wife disappears
+
+In the novel, Jud's late wife Norma is a meaningful presence in his backstory and part of what makes his friendship with the Creeds feel lived-in — she also nearly comes back wrong herself in a subplot the film has no room for. The 2019 movie drops Norma from the story almost entirely, streamlining Jud into a more solitary, purely functional guide-and-warning figure. It's a small cut compared to the ending swap, but it's part of a broader pattern: the film trims most of the novel's slower, more interior material (Louis's extended psychological rationalizations, Rachel's childhood trauma around her sister Zelda's death) to make room for a faster, more externalized horror-movie structure.
+
+## Victor Pascow gets a bigger, more active role
+
+Victor Pascow — the student who dies in Louis's ER on his first day of work and returns as a ghost to warn him — is a recurring but mostly passive figure in the book, appearing mainly in dreams. The film gives Pascow's ghost (played by Obssa Ahmed) a more persistent, active presence, appearing to Louis and eventually Ellie multiple times with warnings that are more explicit than anything in the novel. It doesn't change what Pascow represents, but it does make the film's universe feel a little more overtly supernatural and rule-bound than King's version, which keeps its cosmic mechanics vaguer.
+
+## The ending: who dies, and who's left
+
+The novel's ending is King at his bleakest: Louis, having already lost Gage and then Rachel to the sour ground, buries Rachel there too and waits in his kitchen for her to come back. The last line is a dead woman's voice saying "Darling." There's no rescue, no reversal — just Louis, alone, having made the same catastrophic choice for the third time.
+
+The 2019 film gets there by a different road. After Ellie (now fully turned) kills Rachel and Jud, Louis kills Ellie's reanimated body — and then, in the film's most direct swerve from the source material, decides to bury her again anyway, apparently unable to stop himself from repeating Louis's book-defined mistake even after everything he's just watched happen. The film's actual final scene goes a step further than the novel does: Ellie, now seemingly stable, injects a sedated Louis with the same drug he used on her, and the film ends with an undead Rachel, Ellie, and Gage — Gage having died sometime off-screen between scenes, implied rather than shown — converging on Louis with knives as the family, now entirely monstrous, closes in together. Where the book ends on a single line of dialogue, the film ends on an image of complete family annihilation, which is arguably an even darker note than King's original, even though it gets there through a completely different sequence of deaths.
+
+## Why the changes work (or don't)
+
+Critical reception to the 2019 film was solid but divided specifically over the Ellie/Gage swap — some critics and longtime King readers felt it hollowed out the story's original thesis (a parent's specific terror about losing a very young child to sheer bad luck) by making the victim old enough to have agency, dialogue, and a personality the film can weaponize. Others felt the change was the smartest structural decision the filmmakers could have made, since it solves the practical problem of the book's monster being a toddler and gives Laurence's performance real room to be unsettling in a way an infant antagonist never could be. Both readings are defensible — the swap trades the novel's specific horror (a parent's helplessness against pure accident) for a more conventional but more theatrically effective one (a family member turned genuine threat).
+
+## Should you watch it, read it, or both?
+
+If you've only seen the 1989 film, the 2019 version is worth watching precisely because it isn't just a glossier remake — it's telling a structurally different story past the midpoint, with a 2023 prequel, *[Pet Sematary: Bloodlines](https://www.amazon.com/s?k=Pet+Sematary+Bloodlines+2023&tag=YOURTAG-20)*, filling in Jud's backstory in the same continuity. But the novel is still the version to read for King's actual thesis about grief and denial — the 2019 film is a good horror movie built on a changed premise, while the book is the slower, more clinical original argument that premise was built from. For the full plot breakdown of the novel itself, see our [complete guide to Pet Sematary](/pet-sematary-guide/), and for where it ranks against King's other horror novels, check our [list of King's scariest books](/scariest-stephen-king-books-ranked/).
