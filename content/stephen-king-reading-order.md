@@ -33,7 +33,7 @@ The Dark Tower is King's central, genre-blending epic, and over the decades he c
 7. *The Dark Tower*
 8. *The Wind Through the Keyhole* (a side story best read between books 4 and 5, though it was published last)
 
-Beyond the core series, *[The Talisman](https://www.amazon.com/s?k=The+Talisman+Stephen+King+Peter+Straub&tag=YOURTAG-20)* and its sequel *Black House* (co-written with Peter Straub) sit in the same wider multiverse, with a third and final book, *Other Worlds Than These*, due out October 2026. *It*, *Insomnia*, *Hearts in Atlantis*, and *'Salem's Lot* also all have meaningful Dark Tower connections, but they work fine read as standalones first.
+Beyond the core series, *[The Talisman](https://www.amazon.com/s?k=The+Talisman+Stephen+King+Peter+Straub&tag=YOURTAG-20)* and its sequel *Black House* (co-written with Peter Straub) sit in the same wider multiverse, with a third and final book, *Other Worlds Than These*, due out October 2026. *It*, *Insomnia*, *Hearts in Atlantis*, and *'Salem's Lot* also all have meaningful Dark Tower connections, but they work fine read as standalones first. For the full breakdown of where every tie-in novel fits, see our [Dark Tower reading order guide](/dark-tower-reading-order/).
 
 ### Castle Rock
 Several of King's books are set in his fictional town of Castle Rock, Maine, and a few share characters or consequences across books. Reading order here is loose but this sequence preserves the biggest connections: *The Dead Zone* → *Cujo* → *The Dark Half* → *Needful Things* (which King wrote as Castle Rock's ending — he "destroyed" the town so he'd stop being tempted back to it, though he did eventually return).
@@ -45,10 +45,10 @@ This is King's most straightforward series to read in order, because it's a dire
 2. *Finders Keepers*
 3. *End of Watch*
 
-From there, the character Holly Gibney carries her own connected run: *The Outsider* → *If It Bleeds* → *Holly* → *Never Flinch* (2025). You can read the Holly books without having read the Hodges trilogy first, but a few plot beats land better if you have.
+From there, the character Holly Gibney carries her own connected run: *The Outsider* → *If It Bleeds* → *Holly* → *Never Flinch* (2025). You can read the Holly books without having read the Hodges trilogy first, but a few plot beats land better if you have. See our [Bill Hodges trilogy reading order guide](/bill-hodges-trilogy-reading-order/) for the full breakdown.
 
 ### The Shining and Doctor Sleep
-*[Doctor Sleep](https://www.amazon.com/s?k=Doctor+Sleep+Stephen+King&tag=YOURTAG-20)* is a direct sequel to *[The Shining](https://www.amazon.com/s?k=The+Shining+Stephen+King&tag=YOURTAG-20)*, following Danny Torrance as an adult — read them in that order. Note that the two Shining movies (1980 and Doctor Sleep's 2019 film) made different choices than the books and don't fully line up with each other, so don't use the films as a substitute for reading order here.
+*[Doctor Sleep](https://www.amazon.com/s?k=Doctor+Sleep+Stephen+King&tag=YOURTAG-20)* is a direct sequel to *[The Shining](https://www.amazon.com/s?k=The+Shining+Stephen+King&tag=YOURTAG-20)*, following Danny Torrance as an adult — read them in that order. Note that the two Shining movies (1980 and Doctor Sleep's 2019 film) made different choices than the books and don't fully line up with each other, so don't use the films as a substitute for reading order here. Our [Shining/Doctor Sleep reading order and timeline guide](/shining-doctor-sleep-reading-order-timeline/) walks through both books and both films in detail.
 
 ## Publication order, for completists
 

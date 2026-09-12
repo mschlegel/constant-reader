@@ -50,6 +50,33 @@ def apply_affiliate_tag(text: str, tag: str) -> str:
     return URL_RE.sub(_replace, text)
 
 
+TOPIC_STOPWORDS = {
+    "the", "a", "an", "of", "in", "on", "for", "to", "and", "or", "vs", "what",
+    "is", "are", "with", "by", "best", "stephen", "king", "you", "your", "how",
+    "why", "book", "books", "guide", "complete", "every", "makes", "real",
+}
+
+
+def _topic_words(article: dict) -> set:
+    text = article["slug"].replace("-", " ") + " " + article["title"]
+    return {w for w in re.findall(r"[a-z0-9']+", text.lower()) if len(w) > 2 and w not in TOPIC_STOPWORDS}
+
+
+def compute_related(articles: list, n: int = 3) -> dict:
+    """Deterministic 'related articles' by shared topic words in slug/title.
+    Ties broken by newest first, then slug — no manual tagging required, so this
+    keeps working for every future article the content pipeline writes."""
+    words = {a["slug"]: _topic_words(a) for a in articles}
+    related = {}
+    for a in articles:
+        scored = sorted(
+            (b for b in articles if b["slug"] != a["slug"]),
+            key=lambda b: (-len(words[a["slug"]] & words[b["slug"]]), -b["date"].toordinal(), b["slug"]),
+        )
+        related[a["slug"]] = scored[:n]
+    return related
+
+
 def load_doc(path: Path, affiliate_tag: str) -> dict:
     text = path.read_text(encoding="utf-8")
     _, frontmatter, body = text.split("---", 2)
@@ -84,12 +111,19 @@ def main():
 
     nav_pages = [{"slug": p["slug"], "title": p["title"]} for p in pages]
 
+    related_by_slug = compute_related(articles)
+
     article_tmpl = env.get_template("article.html")
     for article in articles:
         out = OUT_DIR / article["slug"]
         out.mkdir(parents=True, exist_ok=True)
         (out / "index.html").write_text(
-            article_tmpl.render(page=article, config=config, nav_pages=nav_pages),
+            article_tmpl.render(
+                page=article,
+                config=config,
+                nav_pages=nav_pages,
+                related=related_by_slug[article["slug"]],
+            ),
             encoding="utf-8",
         )
 

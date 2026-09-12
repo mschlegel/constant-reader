@@ -61,6 +61,14 @@ a { color: var(--accent); }
 .post-excerpt { color: var(--muted); margin: 0.25rem 0 0; }
 .post h1 { line-height: 1.25; }
 .post img { max-width: 100%; }
+.related-articles {
+  margin-top: 2.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+}
+.related-articles h2 { font-size: 1.05rem; }
+.related-articles ul { padding-left: 1.25rem; }
+.related-articles li { margin: 0.4rem 0; }
 .site-footer {
   border-top: 1px solid var(--border);
   color: var(--muted);
