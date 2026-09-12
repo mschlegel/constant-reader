@@ -152,7 +152,7 @@ def main():
     (OUT_DIR / "sitemap.xml").write_text("\n".join(sitemap), encoding="utf-8")
 
     (OUT_DIR / "robots.txt").write_text(
-        f"User-agent: *\nAllow: /\nSitemap: {config['site_url']}/sitemap.xml\n",
+        f"User-agent: *\nAllow: /\nDisallow: /cdn-cgi/\nSitemap: {config['site_url']}/sitemap.xml\n",
         encoding="utf-8",
     )
 
