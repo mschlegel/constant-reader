@@ -1,8 +1,10 @@
 """Static site builder: content/*.md + pages/*.md -> docs/ (GitHub Pages root)."""
 import json
+import re
 import shutil
 from datetime import date
 from pathlib import Path
+from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 
 import markdown
 import yaml
@@ -18,11 +20,41 @@ OUT_DIR = ROOT / "docs"
 
 MD_EXTENSIONS = ["extra", "sane_lists", "toc"]
 
+# Only these Amazon path shapes are affiliate-linkable (search results, product
+# detail pages). Reference links like /gp/help/... must not get a tag stapled on.
+AFFILIATE_PATH_PREFIXES = ("/s", "/dp/", "/gp/product/", "/gp/aw/d/")
+URL_RE = re.compile(r'https?://[^\s)"\'<>]+')
 
-def load_doc(path: Path) -> dict:
+
+def _is_amazon_affiliate_url(parts) -> bool:
+    host = parts.netloc.lower()
+    if host != "amazon.com" and not host.endswith(".amazon.com"):
+        return False
+    return parts.path.startswith(AFFILIATE_PATH_PREFIXES)
+
+
+def apply_affiliate_tag(text: str, tag: str) -> str:
+    """Rewrite the tag= query param on every Amazon affiliate link at build time,
+    regardless of what tag (if any) is literally written in the markdown source.
+    This is what lets one site_config.json edit retag the whole corpus."""
+
+    def _replace(match: "re.Match[str]") -> str:
+        url = match.group(0)
+        parts = urlsplit(url)
+        if not _is_amazon_affiliate_url(parts):
+            return url
+        query = [(k, v) for k, v in parse_qsl(parts.query, keep_blank_values=True) if k != "tag"]
+        query.append(("tag", tag))
+        return urlunsplit((parts.scheme, parts.netloc, parts.path, urlencode(query), parts.fragment))
+
+    return URL_RE.sub(_replace, text)
+
+
+def load_doc(path: Path, affiliate_tag: str) -> dict:
     text = path.read_text(encoding="utf-8")
     _, frontmatter, body = text.split("---", 2)
     meta = yaml.safe_load(frontmatter)
+    body = apply_affiliate_tag(body, affiliate_tag)
     meta["html"] = markdown.markdown(body.strip(), extensions=MD_EXTENSIONS)
     meta["slug"] = meta.get("slug", path.stem)
     return meta
@@ -42,12 +74,13 @@ def main():
             if f.is_file():
                 shutil.copy(f, OUT_DIR / f.name)
 
+    affiliate_tag = config["affiliate_tag"]
     articles = sorted(
-        (load_doc(p) for p in CONTENT_DIR.glob("*.md")),
+        (load_doc(p, affiliate_tag) for p in CONTENT_DIR.glob("*.md")),
         key=lambda a: a["date"],
         reverse=True,
     )
-    pages = [load_doc(p) for p in PAGES_DIR.glob("*.md")]
+    pages = [load_doc(p, affiliate_tag) for p in PAGES_DIR.glob("*.md")]
 
     nav_pages = [{"slug": p["slug"], "title": p["title"]} for p in pages]
 
