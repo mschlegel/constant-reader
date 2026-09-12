@@ -61,6 +61,14 @@ a { color: var(--accent); }
 .post-excerpt { color: var(--muted); margin: 0.25rem 0 0; }
 .post h1 { line-height: 1.25; }
 .post img { max-width: 100%; }
+.disclosure-inline {
+  color: var(--muted);
+  font-size: 0.85rem;
+  font-style: italic;
+  border-left: 3px solid var(--border);
+  padding-left: 0.75rem;
+  margin: 0.75rem 0 1.5rem;
+}
 .related-articles {
   margin-top: 2.5rem;
   padding-top: 1rem;
