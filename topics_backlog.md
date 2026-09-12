@@ -30,9 +30,9 @@ approval odds and the post-approval 180-day/3-sale requirement).
 - [x] The Best Stephen King Books for Readers Who Don't Like Horror — published 2026-08-24, slug: stephen-king-books-non-horror-readers
 - [x] The Best Stephen King Audiobooks (and Best Narrators) — published 2026-09-07, slug: best-stephen-king-audiobooks
 - [ ] Underrated Stephen King Books You Probably Haven't Read
-- [ ] Stephen King's Best (and Most Controversial) Endings
 - [ ] Stephen King's Longest Books, Ranked by Length (and Which Are Worth It)
 - [ ] Stephen King's Best Books From the 1980s
+- [ ] Stephen King's Best (and Most Controversial) Endings
 
 ## Per-book deep dives
 - [x] IT: Full Plot Summary, Themes, and What the Ending Means — published 2026-07-07, slug: it-plot-summary-ending-explained
@@ -41,14 +41,14 @@ approval odds and the post-approval 180-day/3-sale requirement).
 - [x] Salem's Lot: Guide to King's Vampire Novel — published 2026-08-13, slug: salems-lot-guide
 - [x] The Stand: Guide to the Uncut Edition vs. the Original — published 2026-08-27, slug: the-stand-uncut-edition-vs-original
 - [x] Misery: What Makes Annie Wilkes Stephen King's Scariest Villain — published 2026-09-10, slug: misery-annie-wilkes-scariest-villain
+- [ ] Different Seasons: Guide to the Four Novellas (Shawshank, Apt Pupil, and More)
+- [ ] Needful Things: Guide to King's Castle Rock Finale
 - [ ] Carrie: Stephen King's Debut Novel, Explained
 - [ ] 11/22/63: A Guide to King's Time-Travel Epic
 - [ ] Under the Dome: Plot Summary and Guide
 - [ ] The Dead Zone: Plot Summary and Themes
 - [ ] Christine: Guide to King's Killer Car Novel
 - [ ] Cujo: Plot Summary and What It's Really About
-- [ ] Needful Things: Guide to King's Castle Rock Finale
-- [ ] Different Seasons: Guide to the Four Novellas (Shawshank, Apt Pupil, and More)
 
 ## Book-vs-adaptation comparisons
 - [x] The Shawshank Redemption: Movie vs. the Novella, Every Difference Explained — published 2026-07-09, slug: shawshank-redemption-movie-vs-novella
