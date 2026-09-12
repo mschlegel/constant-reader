@@ -1,0 +1,56 @@
+name: Content Pipeline Health Check
+
+# Independent watchdog for the `constant-reader-content-pipeline` Claude Code
+# Routine (cron 0 13 * * 1,4). This workflow runs on GitHub's own
+# infrastructure, not the Routine's, so a dead Routine can't take this check
+# down with it. See PIPELINE_RUNBOOK.md for the full rationale.
+#
+# Signal: the Routine's one unit of work always ends with a commit that adds
+# a new file under content/ (see PIPELINE_RUNBOOK.md "One unit of work"). If
+# no commit has touched content/ since today's scheduled 13:00 UTC fire, the
+# run either didn't happen or didn't finish, and this job fails loudly.
+# GitHub's default scheduled-workflow failure email is the alert — no extra
+# service, no secrets.
+
+on:
+  schedule:
+    - cron: '0 16 * * 1,4' # a few hours after the pipeline's 13:00 UTC window
+  workflow_dispatch: {} # manual run, e.g. to test the failure path
+
+permissions:
+  contents: read
+
+jobs:
+  check-pipeline-health:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # full history so `git log -- content/` finds the real last touch
+
+      - name: Verify a new article landed after today's scheduled fire
+        run: |
+          set -eu
+
+          last_commit_epoch=$(git log -1 --format=%ct -- content/ || true)
+          if [ -z "$last_commit_epoch" ]; then
+            echo "::error::No commit in this repo's history has ever touched content/ — cannot verify pipeline health."
+            exit 1
+          fi
+
+          now_epoch=$(date -u +%s)
+          today=$(date -u +%Y-%m-%d)
+          expected_epoch=$(date -u -d "$today 13:00:00" +%s)
+          last_commit_human=$(date -u -d "@$last_commit_epoch" +"%Y-%m-%d %H:%M UTC")
+          expected_human=$(date -u -d "@$expected_epoch" +"%Y-%m-%d %H:%M UTC")
+
+          echo "Most recent commit touching content/: $last_commit_human"
+          echo "Content pipeline was expected to publish at or after: $expected_human"
+
+          if [ "$last_commit_epoch" -ge "$expected_epoch" ]; then
+            echo "OK: a content/ commit landed at or after today's scheduled fire. Pipeline looks healthy."
+            exit 0
+          fi
+
+          echo "::error::constant-reader-content-pipeline looks stalled. Expected a new commit under content/ at or after $expected_human (cron 0 13 * * 1,4), but the most recent commit touching content/ is from $last_commit_human. The Routine may have failed silently mid-run (pip install, build.py, or git push) — check its run history and PIPELINE_RUNBOOK.md's 'On failure' section."
+          exit 1
