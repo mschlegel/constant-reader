@@ -84,6 +84,41 @@ corresponding published article, or vice versa. This hasn't been observed in the
 run history checked so far (all recent runs show `ROUTINE_RUN_STATUS_SUCCEEDED`), but
 nothing prevents it.
 
+## Independent health check
+
+Because the routine has no failure handling and nothing tells a human when a
+run dies silently, a separate, independent watchdog exists:
+`.github/workflows/pipeline-health-check.yml`, a GitHub Actions **scheduled
+workflow** — not a Claude Routine, so it doesn't share the Routine's own
+failure mode (a Routine watching a Routine could die the same silent way).
+
+- **Schedule:** `0 16 * * 1,4` — the same two days as the content routine,
+  three hours after its `0 13 * * 1,4` window, so a merely slow run isn't
+  mistaken for a dead one.
+- **What it watches:** the timestamp of the most recent commit that touches
+  `content/`. Every real unit of work the routine does ends in exactly one
+  new file under `content/` (see "One unit of work" above), so this is the
+  most direct proxy for "did the routine actually publish today" that's
+  available from git history alone — more precise than a rolling multi-day
+  window, which could let one missed run hide behind the next successful one
+  three or four days later. The check compares that timestamp against
+  *today's* 13:00 UTC (the cron fires this workflow only on the routine's own
+  scheduled days, so "today" is always a day a run was expected).
+- **How failure surfaces:** if no `content/` commit landed at or after
+  today's 13:00 UTC cutoff, the job exits non-zero with an `::error::` message
+  naming both the expected cutoff and the actual last-touched timestamp.
+  GitHub emails the repo owner automatically on scheduled-workflow failure —
+  no extra service, no secrets, nothing to configure.
+- **If it fires:** check the Routine's run history in the Claude Code cloud
+  dashboard for the failed date. Common causes per "On failure" below: a
+  `pip install` hiccup, a `build.py` error, or a `git push` rejection (e.g.
+  local commits sitting unpushed on `main` — see "Fragility worth flagging").
+  If the routine's checkout diverged or a partial `topics_backlog.md`/
+  `content/` edit was left behind, reconcile by hand before the next
+  scheduled fire; the routine itself has no compensating rollback step.
+- Manual test: `gh workflow run pipeline-health-check.yml --ref main` runs it
+  on demand (e.g. to re-check sooner, or to sanity-test after editing it).
+
 ## Fragility worth flagging
 
 - **Direct push to `main` with no coordination against human edits.** This is exactly
