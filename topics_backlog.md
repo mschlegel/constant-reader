@@ -56,7 +56,7 @@ approval odds and the post-approval 180-day/3-sale requirement).
 - [x] The Shining: Why Stephen King Hated Kubrick's Adaptation — published 2026-07-30, slug: shining-why-king-hated-kubrick
 - [x] The Mist: Movie Ending vs. Book Ending (They're Very Different) — published 2026-08-17, slug: the-mist-movie-vs-book-ending
 - [x] Pet Sematary (2019) vs. the Original Novel: What Changed — published 2026-08-31, slug: pet-sematary-2019-vs-book-what-changed
-- [ ] The Stand: 1994 Miniseries vs. 2020 Series vs. the Book
+- [x] The Stand: 1994 Miniseries vs. 2020 Series vs. the Book — published 2026-09-14, slug: the-stand-miniseries-vs-series-vs-book
 - [ ] Carrie: Comparing All Three Film Adaptations to the Book
 - [ ] Doctor Sleep: Movie vs. Book Ending Compared
 - [ ] Gerald's Game: Netflix Adaptation vs. the Novel
