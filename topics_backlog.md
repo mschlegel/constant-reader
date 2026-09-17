@@ -19,7 +19,7 @@ approval odds and the post-approval 180-day/3-sale requirement).
 - [x] The Shining / Doctor Sleep Reading Order and Timeline — published 2026-08-03, slug: shining-doctor-sleep-reading-order-timeline
 - [x] Stephen King's Universe: How His Books Connect (Easter Eggs and Shared Characters) — published 2026-08-20, slug: stephen-king-universe-connections
 - [x] Bill Hodges Trilogy Reading Order (Mr. Mercedes, Finders Keepers, End of Watch) — published 2026-09-03, slug: bill-hodges-trilogy-reading-order
-- [ ] The Green Mile Reading Order (Original Serial Format vs. Collected Edition)
+- [x] The Green Mile Reading Order (Original Serial Format vs. Collected Edition) — published 2026-09-17, slug: green-mile-reading-order
 - [ ] Castle Rock Reading Order: Every Book Set in King's Fictional Maine Town
 
 ## Best/worst rankings
