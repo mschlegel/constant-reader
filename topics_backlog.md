@@ -41,7 +41,7 @@ approval odds and the post-approval 180-day/3-sale requirement).
 - [x] Salem's Lot: Guide to King's Vampire Novel — published 2026-08-13, slug: salems-lot-guide
 - [x] The Stand: Guide to the Uncut Edition vs. the Original — published 2026-08-27, slug: the-stand-uncut-edition-vs-original
 - [x] Misery: What Makes Annie Wilkes Stephen King's Scariest Villain — published 2026-09-10, slug: misery-annie-wilkes-scariest-villain
-- [ ] Different Seasons: Guide to the Four Novellas (Shawshank, Apt Pupil, and More)
+- [x] Different Seasons: Guide to the Four Novellas (Shawshank, Apt Pupil, and More) — published 2026-09-24, slug: different-seasons-four-novellas-guide
 - [ ] Needful Things: Guide to King's Castle Rock Finale
 - [ ] Carrie: Stephen King's Debut Novel, Explained
 - [ ] 11/22/63: A Guide to King's Time-Travel Epic
