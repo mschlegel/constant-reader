@@ -1,7 +1,8 @@
 ---
 title: "The Shining / Doctor Sleep Reading Order and Timeline"
 slug: shining-doctor-sleep-reading-order-timeline
-description: "How The Shining and Doctor Sleep fit together as a story, the real timeline between them, and how the Kubrick film and 2019 movie complicate the picture."
+description: "Do you need to read The Shining before Doctor Sleep? The reading order, when each book takes place, and how the two films change the timeline."
+seo_title: "The Shining Timeline & Doctor Sleep Reading Order"
 date: 2026-08-03
 ---
 *[Doctor Sleep](https://www.amazon.com/s?k=Doctor+Sleep+Stephen+King&tag=YOURTAG-20)* is a direct sequel to *[The Shining](https://www.amazon.com/s?k=The+Shining+Stephen+King&tag=YOURTAG-20)*, so the reading order itself isn't really in question — read The Shining first. What's genuinely confusing is the timeline: 36 years pass between the two books, King wrote them 36 years apart in real life too, and two very different movie adaptations layer their own, sometimes contradictory, version of events on top. Here's how the books actually line up, and what to know if you're coming from the films instead.

@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% block title %}{{ page.title }} | {{ config.site_name }}{% endblock %}
+{% block title %}{% if page.seo_title %}{{ page.seo_title }}{% else %}{{ page.title }} | {{ config.site_name }}{% endif %}{% endblock %}
 {% block description %}{{ page.description }}{% endblock %}
 {% block canonical_path %}{{ page.slug }}/{% endblock %}
 {% block content %}

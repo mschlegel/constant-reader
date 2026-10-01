@@ -1,7 +1,8 @@
 ---
 title: "The Mist: Movie Ending vs. Book Ending (They're Very Different)"
 slug: the-mist-movie-vs-book-ending
-description: "How Frank Darabont's 2007 film adaptation of Stephen King's The Mist changes the novella's ambiguous, hopeful ending into one of the bleakest endings in horror movie history — and why King prefers it."
+description: "How The Mist novella ends vs. the 2007 film: the book's ambiguous Hartford ending, the movie's devastating twist, and why King prefers it."
+seo_title: "The Mist Ending Explained: Book vs. Movie Ending"
 date: 2026-08-17
 ---
 *Spoilers follow for both the novella and the 2007 film, including the endings.*
