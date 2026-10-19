@@ -31,7 +31,7 @@ approval odds and the post-approval 180-day/3-sale requirement).
 - [x] The Best Stephen King Audiobooks (and Best Narrators) — published 2026-09-07, slug: best-stephen-king-audiobooks
 - [x] Underrated Stephen King Books You Probably Haven't Read — published 2026-09-21, slug: underrated-stephen-king-books-you-probably-havent-read
 - [x] Stephen King's Longest Books, Ranked by Length (and Which Are Worth It) — published 2026-10-08, slug: stephen-king-longest-books-ranked
-- [ ] Stephen King's Best Books From the 1980s
+- [x] Stephen King's Best Books From the 1980s — published 2026-10-19, slug: stephen-king-best-books-1980s
 - [ ] Stephen King's Best (and Most Controversial) Endings
 
 ## Per-book deep dives
