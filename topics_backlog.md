@@ -59,5 +59,5 @@ approval odds and the post-approval 180-day/3-sale requirement).
 - [x] The Stand: 1994 Miniseries vs. 2020 Series vs. the Book — published 2026-09-14, slug: the-stand-miniseries-vs-series-vs-book
 - [x] Carrie: Comparing All Three Film Adaptations to the Book — published 2026-09-28, slug: carrie-three-film-adaptations-vs-book
 - [x] Doctor Sleep: Movie vs. Book Ending Compared — published 2026-10-12, slug: doctor-sleep-movie-vs-book-ending-compared
-- [ ] Gerald's Game: Netflix Adaptation vs. the Novel
+- [x] Gerald's Game: Netflix Adaptation vs. the Novel — published 2026-10-22, slug: geralds-game-netflix-adaptation-vs-novel
 - [ ] 1922: Netflix Adaptation vs. the Novella
