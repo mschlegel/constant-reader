@@ -44,7 +44,7 @@ approval odds and the post-approval 180-day/3-sale requirement).
 - [x] Different Seasons: Guide to the Four Novellas (Shawshank, Apt Pupil, and More) — published 2026-09-24, slug: different-seasons-four-novellas-guide
 - [x] Needful Things: Guide to King's Castle Rock Finale — published 2026-10-05, slug: needful-things-guide
 - [x] Carrie: Stephen King's Debut Novel, Explained — published 2026-10-15, slug: carrie-debut-novel-explained
-- [ ] 11/22/63: A Guide to King's Time-Travel Epic
+- [x] 11/22/63: A Guide to King's Time-Travel Epic — published 2026-10-26, slug: 11-22-63-guide
 - [ ] Under the Dome: Plot Summary and Guide
 - [ ] The Dead Zone: Plot Summary and Themes
 - [ ] Christine: Guide to King's Killer Car Novel
