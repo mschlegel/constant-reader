@@ -32,7 +32,7 @@ approval odds and the post-approval 180-day/3-sale requirement).
 - [x] Underrated Stephen King Books You Probably Haven't Read — published 2026-09-21, slug: underrated-stephen-king-books-you-probably-havent-read
 - [x] Stephen King's Longest Books, Ranked by Length (and Which Are Worth It) — published 2026-10-08, slug: stephen-king-longest-books-ranked
 - [x] Stephen King's Best Books From the 1980s — published 2026-10-19, slug: stephen-king-best-books-1980s
-- [ ] Stephen King's Best (and Most Controversial) Endings
+- [x] Stephen King's Best (and Most Controversial) Endings — published 2026-10-29, slug: stephen-king-best-controversial-endings
 
 ## Per-book deep dives
 - [x] IT: Full Plot Summary, Themes, and What the Ending Means — published 2026-07-07, slug: it-plot-summary-ending-explained
