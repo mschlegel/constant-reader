@@ -21,6 +21,10 @@ approval odds and the post-approval 180-day/3-sale requirement).
 - [x] Bill Hodges Trilogy Reading Order (Mr. Mercedes, Finders Keepers, End of Watch) — published 2026-09-03, slug: bill-hodges-trilogy-reading-order
 - [x] The Green Mile Reading Order (Original Serial Format vs. Collected Edition) — published 2026-09-17, slug: green-mile-reading-order
 - [x] Castle Rock Reading Order: Every Book Set in King's Fictional Maine Town — published 2026-10-01, slug: castle-rock-reading-order
+- [x] Holly Gibney Reading Order: Every Book and Story She Appears In — published 2026-11-05, slug: holly-gibney-reading-order
+- [ ] The Outsider Reading Order: How It Connects to the Mr. Mercedes/Holly Universe
+- [ ] The Talisman and Black House Reading Order (King & Peter Straub Collaborations)
+- [ ] Stephen King Short Story Collections Reading Order (Night Shift to You Like It Darker)
 
 ## Best/worst rankings
 - [x] The Best Stephen King Books, Ranked — published 2026-07-07, slug: best-stephen-king-books-ranked
@@ -33,6 +37,9 @@ approval odds and the post-approval 180-day/3-sale requirement).
 - [x] Stephen King's Longest Books, Ranked by Length (and Which Are Worth It) — published 2026-10-08, slug: stephen-king-longest-books-ranked
 - [x] Stephen King's Best Books From the 1980s — published 2026-10-19, slug: stephen-king-best-books-1980s
 - [x] Stephen King's Best (and Most Controversial) Endings — published 2026-10-29, slug: stephen-king-best-controversial-endings
+- [ ] The Best Stephen King Movie Adaptations, Ranked
+- [ ] Stephen King's Best Books From the 1990s
+- [ ] The Best Stephen King Short Stories, Ranked
 
 ## Per-book deep dives
 - [x] IT: Full Plot Summary, Themes, and What the Ending Means — published 2026-07-07, slug: it-plot-summary-ending-explained
@@ -61,3 +68,6 @@ approval odds and the post-approval 180-day/3-sale requirement).
 - [x] Doctor Sleep: Movie vs. Book Ending Compared — published 2026-10-12, slug: doctor-sleep-movie-vs-book-ending-compared
 - [x] Gerald's Game: Netflix Adaptation vs. the Novel — published 2026-10-22, slug: geralds-game-netflix-adaptation-vs-novel
 - [x] 1922: Netflix Adaptation vs. the Novella — published 2026-11-02, slug: 1922-netflix-adaptation-vs-novella
+- [ ] Christine: Movie vs. Book, Every Difference Explained
+- [ ] Cujo: Movie vs. Book Ending Compared
+- [ ] Under the Dome: TV Series vs. Book, What Changed
